@@ -5,6 +5,7 @@ import {
   StyleSheet,
   View,
 } from 'react-native';
+import Config from 'react-native-config'
 
 import Info from '../components/Info';
 
@@ -69,7 +70,7 @@ export default class HomeScreen extends Component {
         <View style={styles.margin}>
           <Button
             onPress={this.navigateToState}
-            title="State"
+            title={Config.ENV}
           />
         </View>
       </ScrollView>
