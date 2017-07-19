@@ -8,6 +8,7 @@ const styles = StyleSheet.create({
 });
 
 export default function Greeting(props) {
+  const erreur = props.nexistepas.test;
   return (
     <View>
       <Text>Hello {props.name}!</Text>
