@@ -5,7 +5,7 @@ import {
   StyleSheet,
   View,
 } from 'react-native';
-import Config from 'react-native-config'
+import Config from 'react-native-config';
 
 import Info from '../components/Info';
 
